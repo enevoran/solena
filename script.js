@@ -194,7 +194,15 @@ function initNav(){
   });
 }
 
+function initForm(){
+  const tel = document.getElementById("telefono");
+  if(tel){
+    tel.addEventListener("input", () => { tel.value = tel.value.replace(/[^0-9]/g, ""); });
+  }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   renderParques();
   initNav();
+  initForm();
 });

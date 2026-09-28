@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¡Gracias! — Solena</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .gracias{
+      min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;
+      text-align:center;padding:48px 24px;color:#fff;
+      background:
+        radial-gradient(120% 90% at 85% -10%, rgba(231,195,55,.22), transparent 55%),
+        radial-gradient(90% 80% at 10% 110%, rgba(31,168,92,.28), transparent 60%),
+        linear-gradient(160deg, var(--green-deep), var(--green));
+    }
+    .gracias .logo{height:52px;width:auto;margin-bottom:36px}
+    .gracias .check{width:64px;height:64px;margin-bottom:24px;color:var(--yellow)}
+    .gracias h1{font-family:var(--f-disp);font-weight:800;font-size:clamp(30px,5.5vw,52px);letter-spacing:-.03em;line-height:1.05;margin-bottom:16px;max-width:18ch}
+    .gracias h1 em{font-style:normal;color:var(--yellow)}
+    .gracias p{font-size:18px;color:rgba(255,255,255,.85);max-width:46ch;margin-bottom:34px;line-height:1.6}
+  </style>
+</head>
+<body>
+  <main class="gracias">
+    <img class="logo" src="assets/logo-white.png" alt="Solena">
+    <svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>
+    <h1>¡Gracias! <br> <em>Te contactamos pronto</em></h1>
+    <p>Recibimos tu consulta. Un asesor de Solena se va a poner en contacto a la brevedad para responder tu consulta.</p>
+    <a href="index.html" class="btn btn-ghost">Volver al inicio</a>
+  </main>
+</body>
+</html>
